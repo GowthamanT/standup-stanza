@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+html {
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#logo {
+    height:30px;
+    border-radius: 50%;
+}
+
+.backt {
+    background: none; 
+    font-family: Arial, Helvetica, sans-serif; 
+}
+
+#backimg {
+    border-radius: 0px;
+}
+
+#deco {
+    background-color: black;
+    height: 553px;
+    position: absolute;
+    width: 1280px;
+    opacity: 0.6;    
+}
+
+
+.firstset  {
+    margin-top: 320px;
+}
+
+.firsthead {
+    font-family: 'Pacifico',cursive;   
+}
+
+.tophead {
+    margin-top: 30px;
+}
+
+#uscont {
+    background-color: black;
+}
+
+.uscard {
+    border-radius: 15px;
+    margin-top: -18px;
+    /* align-items: center; */
+    justify-content: center;
+    box-shadow: 0 1px 3px rgba(255,255,255,0.12), 0 1px 2px rgba(255,255,255,0.24);;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.uscard:hover {
+    box-shadow: 0 15px 28px rgba(255,255,255,0.25), 0 10px 10px rgba(255,255,255,0.22);
+}
+
+.ustext{
+    color:white;
+    font-size: 25px;
+    margin-top: 30px;
+}
+
+#myfooter {
+    color:white;
+    background-color: black;
+    opacity:0.9;
+    flex-shrink: none;
+    position: absolute;
+    margin-bottom: 0px;
+    width: 100%;
+}
+#copyright {
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 1em;
+    color:lightgray;
+    margin-top: -10px;
+}
+
+#mail {
+    text-decoration: none;
+    color:white;
+}
+
